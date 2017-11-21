@@ -1,0 +1,235 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+    background-color: #333A4D;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* -- TOP LEFT LOGO -- */
+.nav-logo {
+    height: 82px;
+    width: 224px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+/* -- NAV LINKS -- */
+nav ul {
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+nav li {
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* -- LINK COLOR WHITE -- */
+nav li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* -- UNDERLINE HOVER EFFECT -- */
+nav ul li a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #c18F59;
+    position: absolute;
+    top: 5px;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+.topright-icon {
+    font-size: 25px;
+}
+
+.clock-icon {
+    margin-top: 15px;
+}
+
+.off-hours {
+    margin-top: 22px;
+    color: white;
+    font-size: 14px;
+}
+
+.off-number {
+    margin-top: 7px;
+    color: white;
+    font-size: 14px;
+}
+
+.off-details {
+    margin-right: 30px;
+}
+
+.fa-star {
+    color: #c18F59;
+    font-size: 9px;
+    margin-left: 14px;
+    padding-bottom: 10px;
+}
+
+/* -- FA ICON DEFAULT GOLDISH COLOR --*/
+.fa {
+    color: #c18F59;
+}
+
+/* -- CAROUSEL INDICATOR COLOR -- */
+.carousel-indicators li {
+    background-color: #c18F59;
+    cursor: pointer;
+}
+
+/* -- IMG CAPTIONS -- */
+.img1-caption {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 200px;
+    margin-left: 582px;
+}
+
+.img3-caption {
+    color: black;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+
+/* -- VARIOUS FIELDS ICONS -- */
+
+.field-icon-con {
+    background-color: #333A4D;
+}
+
+.field-icon-row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* -- FIELD ICON SIZE -- */
+.field-icon-row i {
+    font-size: 55px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c18F59;
+}
+
+.field-icon-row p {
+    padding-top: 21px;
+    padding-bottom: 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.field-icon-row .col-md-2 {
+    border-right: 1px solid;
+    border-color: rgb(160,160,255);
+    line-height: 10px;
+}
+
+/* -- FIELD ICON HOVER EFFECTS -- */
+
+/* -- MEET TEAM SECTION ROW -- */
+
+.meet-team-row {
+    padding-top: 50px;
+}
+
+/* -- STRAIGHT LINE BETWEEN BUILDING -- */
+
+.building-line span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.straight-line {
+    width: 40%;
+    border-bottom: 1px solid #333A4D;
+}
+
+/* -- BUILDING AND LINE COLOR -- */
+
+.building-line span i {
+    color: #333A4D;
+    font-size: 30px;
+}
+
+/* -- UNDERLINE "MEET THE TEAM" -- */
+
+.building-line h1 {
+    display: inline-block;
+}
+
+/* -- Space between "Meet the Team" and the Building icon and Tag line -- */
+
+.building-line h1 {
+    padding-top: 20px;
+}
+
+.building-line h6 {
+    padding-top: 10px;
+}
+
+/* -- HEADSHOTS IMAGE ROW -- */
+
+.headshot-con {
+    margin-top: 30px;
+}
+
+/* -- HEADSHOT NAME UNDERLINE EFFECT -- */
+
+.under-name1 {
+    background-color: #333A4D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.under-name2 {
+    background-color: #333A4D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name-caption {
+    margin-top: 10px;
+}
+
+.name-caption:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 34%;
+    width: 115px;
+    height: 2px;
+    background-color: #c18F59;
+}
