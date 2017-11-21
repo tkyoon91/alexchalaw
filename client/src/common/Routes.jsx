@@ -9,6 +9,10 @@ import PersonalInjuryPage from '../pages/Practices/PersonalInjuryPage';
 import RealEstatePage from '../pages/Practices/RealEstatePage';
 import ImmigrationPage from '../pages/Practices/ImmigrationPage';
 import EmploymentPage from '../pages/Practices/EmploymentPage';
+import AlexChaPage from '../pages/Attorneys/AlexChaPage';
+import EdwardKimPage from '../pages/Attorneys/EdwardKimPage';
+import ContactPage from '../pages/ContactPage';
+import AttorneysPage from '../pages/Attorneys/AttorneysPage';
 
 const Routes = () => {
   return (
@@ -21,9 +25,10 @@ const Routes = () => {
       <Route path='/real-estate' component={RealEstatePage}/>
       <Route path='/immigration' component={ImmigrationPage}/>
       <Route path='/employment' component={EmploymentPage}/>
-      {/* <Route path='/j-edward-kim' component={}/>
-      <Route path='/alex-cha' component={}/>
-      <Route path='/contact' component={}/> */}
+      <Route path='/j-edward-kim' component={EdwardKimPage}/>
+      <Route path='/alex-cha' component={AlexChaPage}/>
+      <Route path='/contact' component={ContactPage}/>
+      <Route path='/attorneys' component={AttorneysPage}/>
     </Switch>
   );
 };
