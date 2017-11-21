@@ -8,11 +8,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavigationBar />
         <BrowserRouter>
-          <Routes/>
+          <div>
+            <NavigationBar />
+              <Routes/>
+            <Footer />
+          </div>
         </BrowserRouter>
-        <Footer />
       </div>
     );
   }
