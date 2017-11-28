@@ -50,7 +50,7 @@ const HomePage = () => {
         <Carousel target="top-carousel" slides={topCarouselSlides}/>
         <PracticeAreasBar/> 
         <div className="container-fluid">
-            <div className="row meet-team-row">
+            <div className="row new-section-row">
                 <div className="col-md-4 offset-md-4 text-center building-line">
                     <span className="straight-line"></span>
                     <span><i className="fa fa-university" aria-hidden="true"></i></span>
@@ -63,12 +63,54 @@ const HomePage = () => {
         </div>
         <div className="container-fluid headshot-con">
             <div className ="row">
-                <div className="col-md-3"></div>
+                <div className="col-md-3 team-col"></div>
                 <Headshot image="Images/alex-cha-headshot.png" link='/alex-cha' name="ALEX CHA"/>
                 <Headshot image="Images/EdwardKim_Headshot.png" link='/j-edward-kim' name="J. EDWARD KIM"/>
             </div>
         </div>
         <Carousel target="sub-carousel" slides={bottomCarouselSlides}/>
+        <div className="container-fluid">
+            <div className="row new-section-row">
+                <div className="col-md-4 offset-md-4 text-center building-line">
+                    <span className="straight-line"></span>
+                    <span><i className="fa fa-anchor" aria-hidden="true"></i></span>
+                    <span className="straight-line"></span>
+                    <h1>Practice Areas</h1>
+                    <span className="underline-heading"></span>
+                    <h6>We offer a broad range of law services</h6>
+                </div>
+            </div>
+        </div>
+          
+        <div className="container-fluid">
+            <div className="row new-section-row text-center">
+                
+                <div className="col-md-3 pa-col">
+                    <img src="Images/PA_Employment1.jpg"></img>
+                    <h5 className="font-weight-bold">EMPLOYMENT</h5>
+                    <p className="pa-caption">In this burgeoning area of law, we have represented both plaintiff and defendants involved in various employment related litigation.</p>
+                </div>
+                
+                <div className="col-md-3 pa-col">
+                    <img src="Images/PA_BusLitigation2.jpg"></img>
+                    <h5 className="font-weight-bold">BUSINESS LITIGATION</h5>
+                    <p className="pa-caption">We practice all facets of litigation, representing plaintiffs and defendants in business, real estate, and other matters.</p>
+                </div>
+                
+                <div className="col-md-3 pa-col">
+                    <img src="Images/PA_PerInjury3.jpg"></img>
+                    <h5 className="font-weight-bold">PERSONAL INJURY</h5>
+                    <p className="pa-caption">If you have suffered an injury as a result of an accident or the negligence of others, you need an attorney to represent your interests. We will do our best to help you receive the just compensation.</p>
+                </div>
+                
+                <div className="col-md-3 pa-col">
+                    <img src="Images/PA_LemLaw4.jpg"></img>
+                    <h5 className="font-weight-bold">LEMON LAW</h5>
+                    <p className="pa-caption">If you have problems with your vehicle that have required multiple visits to the dealership, your vehicle may qualify as a “lemon.” You could receive a monetary settlement or a buyback of the vehicle.</p>
+                </div>
+                
+            </div>
+        </div>
     </div>
   );
 };

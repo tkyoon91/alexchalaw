@@ -159,7 +159,7 @@ nav ul li a:hover::before {
 
 /* -- MEET TEAM SECTION ROW -- */
 
-.meet-team-row {
+.new-section-row {
     padding-top: 50px;
 }
 
@@ -232,6 +232,27 @@ nav ul li a:hover::before {
     width: 115px;
     height: 2px;
     background-color: #c18F59;
+}
+
+/* -- TEAM HOVER EFFECT -- */
+
+.team-col:hover {
+    text-decoration: none;
+}
+
+/* -- PRACTICE AREAS SECTION -- */
+.pa-col:hover {
+    text-decoration: none;
+}
+
+.pa-col h5 {
+    margin-top: 15px;
+}
+
+.pa-caption {
+    font-size: 13.5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* -- FOOTER -- */
