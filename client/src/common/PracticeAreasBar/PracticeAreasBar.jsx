@@ -30,8 +30,8 @@ const PracticeAreasBar = () => {
   return (
     <div className="container-fluid field-icon-con">
             <div className="row field-icon-row text-center">
-                {practiceAreas.map((practice) => {
-                    return <PracticeAreasIcon icon={practice.icon} practice={practice.practice}/>
+                {practiceAreas.map((practice, index) => {
+                    return <PracticeAreasIcon key={index} icon={practice.icon} practice={practice.practice}/>
                 })}
             </div>
         </div>
