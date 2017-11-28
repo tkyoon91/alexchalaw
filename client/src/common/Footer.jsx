@@ -14,6 +14,17 @@ const Footer = () => {
           </div>
             
           <div className="col-md-3">
+              <h5><i className="fa fa-paperclip" aria-hidden="true"></i> Contact Us<br/></h5>
+              <h4>Law Office of Alex Cha & Associates <br/><br/></h4>
+              <h6>1055 W 7th St., Ste. 2800 <br/>
+                  Los Angeles, CA 90017 <br/> <br/>
+                  Tel. 213-351-3513 <br/>
+                  Fax. 213-351-3514
+              </h6>
+          </div>
+            
+          <div className="col-md-3">
+              
           </div>
             
         </div>

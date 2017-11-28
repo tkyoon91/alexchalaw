@@ -233,3 +233,25 @@ nav ul li a:hover::before {
     height: 2px;
     background-color: #c18F59;
 }
+
+/* -- FOOTER -- */
+
+footer {
+    margin-top: 60px;
+    background-color: #333A4D;
+    color: white;
+    border-top: 2px solid #c18F59;
+}
+
+
+
+footer .col-md-3 {
+    margin-top: 20px;
+    margin-left: 15px;
+    border-right: 1px solid;
+    border-color: rgb(160,160,255);
+}
+
+footer p {
+    font-size: 13px;
+}
