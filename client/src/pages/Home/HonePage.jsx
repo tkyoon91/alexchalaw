@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from '../../common/Carousel/Carousel';
 import PracticeAreasBar from '../../common/PracticeAreasBar/PracticeAreasBar';
 import Headshot from '../../common/Headshot';
+import PracticeAreaBubble from '../../common/PracticeAreaBubble';
 
 const topCarouselSlides = [
     {
@@ -81,34 +82,12 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-          
         <div className="container-fluid">
             <div className="row new-section-row text-center">
-                
-                <div className="col-md-3 pa-col">
-                    <img src="Images/PA_Employment1.jpg"></img>
-                    <h5 className="font-weight-bold">EMPLOYMENT</h5>
-                    <p className="pa-caption">In this burgeoning area of law, we have represented both plaintiff and defendants involved in various employment related litigation.</p>
-                </div>
-                
-                <div className="col-md-3 pa-col">
-                    <img src="Images/PA_BusLitigation2.jpg"></img>
-                    <h5 className="font-weight-bold">BUSINESS LITIGATION</h5>
-                    <p className="pa-caption">We practice all facets of litigation, representing plaintiffs and defendants in business, real estate, and other matters.</p>
-                </div>
-                
-                <div className="col-md-3 pa-col">
-                    <img src="Images/PA_PerInjury3.jpg"></img>
-                    <h5 className="font-weight-bold">PERSONAL INJURY</h5>
-                    <p className="pa-caption">If you have suffered an injury as a result of an accident or the negligence of others, you need an attorney to represent your interests. We will do our best to help you receive the just compensation.</p>
-                </div>
-                
-                <div className="col-md-3 pa-col">
-                    <img src="Images/PA_LemLaw4.jpg"></img>
-                    <h5 className="font-weight-bold">LEMON LAW</h5>
-                    <p className="pa-caption">If you have problems with your vehicle that have required multiple visits to the dealership, your vehicle may qualify as a “lemon.” You could receive a monetary settlement or a buyback of the vehicle.</p>
-                </div>
-                
+                <PracticeAreaBubble image="Images/PA_Employment1.jpg" practice="EMPLOYMENT" description="In this burgeoning area of law, we have represented both plaintiff and defendants involved in various employment related litigation."/>
+                <PracticeAreaBubble image="Images/PA_BusLitigation2.jpg" practice="BUSINESS LITIGATION" description="We practice all facets of litigation, representing plaintiffs and defendants in business, real estate, and other matters."/>
+                <PracticeAreaBubble image="Images/PA_PerInjury3.jpg" practice="PERSONAL INJURY" description="If you have suffered an injury as a result of an accident or the negligence of others, you need an attorney to represent your interests. We will do our best to help you receive the just compensation."/>
+                <PracticeAreaBubble image="Images/PA_LemLaw4.jpg" practice="LEMON LAW" description="If you have problems with your vehicle that have required multiple visits to the dealership, your vehicle may qualify as a “lemon.” You could receive a monetary settlement or a buyback of the vehicle."/>
             </div>
         </div>
     </div>
